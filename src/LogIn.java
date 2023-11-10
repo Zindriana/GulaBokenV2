@@ -9,7 +9,7 @@ public class LogIn {
         out.logIn(users);
         int chosenUser = inp.chooseInt();
         if (chosenUser == -1 || chosenUser > users.userProfiles.size() ){
-            out.
+            out.adminLogInError();
             return user;
         }
         out.password();

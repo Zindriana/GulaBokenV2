@@ -31,7 +31,7 @@ public class Menu {
                     mainMenu();
                     break;
                 case 5:
-                    contactList.saveContacts("test");
+                    contactList.saveContacts("saveFile");
                     out.endProgram();
                     break;
                 default: mainMenu();
@@ -48,7 +48,7 @@ public class Menu {
                         mainMenu();
                     break;
                 case 3:
-                    contactList.saveContacts("test");
+                    contactList.saveContacts("saveFile");
                     out.endProgram();
                     break;
                 default: mainMenu();
